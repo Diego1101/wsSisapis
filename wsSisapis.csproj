@@ -78,6 +78,8 @@
     <Content Include="assets\js\main.js" />
     <Content Include="default.aspx" />
     <Content Include="acceso.aspx" />
+    <Content Include="reportep-auto.aspx" />
+    <Content Include="registro.aspx" />
     <Content Include="nosotros.aspx" />
     <Content Include="index.aspx" />
     <Content Include="images\adornomain.svg" />
@@ -103,6 +105,20 @@
     </Compile>
     <Compile Include="acceso.aspx.designer.cs">
       <DependentUpon>acceso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportep-auto.aspx.cs">
+      <DependentUpon>reportep-auto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportep-auto.aspx.designer.cs">
+      <DependentUpon>reportep-auto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="registro.aspx.cs">
+      <DependentUpon>registro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registro.aspx.designer.cs">
+      <DependentUpon>registro.aspx</DependentUpon>
     </Compile>
     <Compile Include="nosotros.aspx.cs">
       <DependentUpon>nosotros.aspx</DependentUpon>

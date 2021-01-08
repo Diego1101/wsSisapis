@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <div id="page-wrapper">
+    <div id="page-wrapper">
 
 				<!-- Header -->
 					<header id="header">
@@ -36,23 +36,25 @@
                     
                 	<div class="input-group" >
 								<div class="input-group-prepend">
-									<span class="input-group-text"><i class="fas fa-user-tie"></i></span>
+									<span class="input-group-text"><i class="fas fa-user-tie"></i>
+                                    
+                                    </span>
 								</div>
-								<input type="text" name="" class="form-control" placeholder="Nombre de usuario"/>
+								<asp:TextBox runat="server" type="text" name="txt_usu" class="form-control" placeholder="Usuario"></asp:TextBox>
 							</div><br />
          
                 	<div class="input-group">
 								<div class="input-group-prepend">
 									<span class="input-group-text"><i class="fa fa-key"></i></span>
 								</div>
-									<input type="Password" name="" class="form-control" placeholder="Contraseña"/>
+								<asp:TextBox runat="server" type="Password" name="txt_pass" class="form-control" placeholder="Contraseña"></asp:TextBox>
 							</div><br />
                 <ul class="actions">
                                     <li>
                                        <!--BOTON ACCESO --><asp:Button ID="Button1" runat="server" Text="Acceder" /> 
                                     </li>
 								</ul>
-                    <p class="text-center">¿No tienes cuenta? Registrate <a href="#">aquí</a></p>
+                    <p class="text-center">¿No tienes cuenta? Registrate <a href="registro.aspx">aquí</a></p>
 
                 </div>
         </div>

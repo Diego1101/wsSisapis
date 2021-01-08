@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mpPrincipal.Master.cs" Inherits="wsSisapis.Site1" %>
+
+
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<script src="https://kit.fontawesome.com/aa105598bc.js" crossorigin="anonymous"></script>
+
+<title>SISAPIS AUTOMOTRIZ</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="is-preload">
+    <form id="form1" runat="server">
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <!-- CONTENT -->
+            </asp:ContentPlaceHolder>
+    </form>
+     <!-- Footer -->
+<section id="footer" >
+			<div class="inner">
+                            <hr/>
+                             <h3>SISAPIS<sup>®</sup></h3>
+                            <br/>
+                            <h3>Unverisidad La Salle Pachuca<sup>®</sup></h3>       
+						</div>
+					</section>
+</body>
+
+
+ <!-- Scripts -->
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/main.js"></script>
+</html>
+

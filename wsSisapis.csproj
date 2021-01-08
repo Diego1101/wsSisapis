@@ -67,7 +67,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\images\close.svg" />
+    <Content Include="assets\css\main.css" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\breakpoints.min.js" />
+    <Content Include="assets\js\browser.min.js" />
+    <Content Include="assets\js\jquery.min.js" />
+    <Content Include="assets\js\jquery.scrollex.min.js" />
+    <Content Include="assets\js\main.js" />
     <Content Include="default.aspx" />
+    <Content Include="acceso.aspx" />
+    <Content Include="nosotros.aspx" />
+    <Content Include="index.aspx" />
+    <Content Include="images\adornomain.svg" />
+    <Content Include="images\foto-diego.jpg" />
+    <Content Include="images\foto-geo.jpg" />
+    <Content Include="images\foto-mike.jpg" />
+    <Content Include="images\logoredondo.png" />
+    <Content Include="images\logosisapis.png" />
+    <Content Include="images\sisapisautomotriz.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -78,10 +97,39 @@
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="acceso.aspx.cs">
+      <DependentUpon>acceso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="acceso.aspx.designer.cs">
+      <DependentUpon>acceso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="nosotros.aspx.cs">
+      <DependentUpon>nosotros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="nosotros.aspx.designer.cs">
+      <DependentUpon>nosotros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="mpPrincipal.Master.cs">
+      <DependentUpon>mpPrincipal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mpPrincipal.Master.designer.cs">
+      <DependentUpon>mpPrincipal.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="mpPrincipal.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -89,6 +137,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

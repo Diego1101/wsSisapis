@@ -38,30 +38,30 @@
 								<div class="input-group-prepend">
 									<span class="input-group-text"><i class="fas fa-user"></i></span>
 								</div>
-								<input type="text" name="txt_nombre" class="form-control" placeholder="Nombre"/>
+								<input type="text" name="txt_nombre" class="form-control" placeholder="Nombre" id="txt_nombre"/>
 							</div><br />
          <div class="input-group" >
 								<div class="input-group-prepend">
 									<span class="input-group-text"><i class="fas fa-users"></i></span>
 								</div>
-								<input type="text" name="txt_usu" class="form-control" placeholder="Nombre de usuario"/>
+								<input type="text" name="txt_usu" class="form-control" placeholder="Nombre de usuario" id="txt_usu"/>
 							</div><br />
                 	<div class="input-group">
 								<div class="input-group-prepend">
 									<span class="input-group-text"><i class="fa fa-key"></i></span>
 								</div>
-									<input type="Password" name="txt_pass" class="form-control" placeholder="Contraseña"/>
+									<input type="Password" name="txt_pass" class="form-control" placeholder="Contraseña" id="txt_pass"/>
 							</div><br />
                     	<div class="input-group">
 								<div class="input-group-prepend">
 									<span class="input-group-text"><i class="fa fa-key"></i></span>
 								</div>
-									<input type="Password" name="txt_confpass" class="form-control" placeholder="Confirmar Contraseña"/>
+									<input type="Password" name="txt_confpass" class="form-control" placeholder="Confirmar Contraseña" id="txt_confpass"/>
 							</div><br />
                     <div class="text-center" >
                         <ul class="actions" style="display:inherit;">
                                     <li >
-                                       <!--BOTON REGISTRO --><asp:Button ID="Button1" runat="server" Text="Registrarme" /> 
+                                       <!--BOTON REGISTRO --><asp:Button ID="btnRegistro" runat="server" Text="Registrarme" OnClick="btnRegistro_Click" /> 
                                     </li>
 								</ul>
                     </div>

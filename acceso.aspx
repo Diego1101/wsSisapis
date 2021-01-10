@@ -40,18 +40,18 @@
                                     
                                     </span>
 								</div>
-								<asp:TextBox runat="server" type="text" name="txt_usu" class="form-control" placeholder="Usuario"></asp:TextBox>
+								<asp:TextBox runat="server" type="text" name="txt_usu" class="form-control" placeholder="Usuario" ID="txtUsuario"></asp:TextBox>
 							</div><br />
          
                 	<div class="input-group">
 								<div class="input-group-prepend">
 									<span class="input-group-text"><i class="fa fa-key"></i></span>
 								</div>
-								<asp:TextBox runat="server" type="Password" name="txt_pass" class="form-control" placeholder="Contraseña"></asp:TextBox>
+								<asp:TextBox runat="server" type="Password" name="txt_pass" class="form-control" placeholder="Contraseña" ID="txtPass"></asp:TextBox>
 							</div><br />
                 <ul class="actions">
                                     <li>
-                                       <!--BOTON ACCESO --><asp:Button ID="Button1" runat="server" Text="Acceder" /> 
+                                       <!--BOTON ACCESO --><asp:Button ID="btnAcceder" runat="server" Text="Acceder" OnClick="Button1_Click" /> 
                                     </li>
 								</ul>
                     <p class="text-center">¿No tienes cuenta? Registrate <a href="registro.aspx">aquí</a></p>

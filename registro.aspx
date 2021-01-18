@@ -38,7 +38,7 @@
 								<div class="input-group-prepend">
 									<span class="input-group-text"><i class="fas fa-user"></i></span>
 								</div>
-								<input type="text" name="txt_nombre" class="form-control" placeholder="Nombre" id="txt_nombre" value="@Request["txt_nombre"]"/>
+								<input type="text" name="txt_nombre" class="form-control" placeholder="Nombre" id="txt_nombre"/>
 							</div><br />
          <div class="input-group" >
 								<div class="input-group-prepend">

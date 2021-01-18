@@ -24,7 +24,7 @@ namespace wsSisapis
                 {
                     Session["Usuario"] = obj.Nombre;
                     Session["ID"] = obj.Id;
-                    Response.Write("<script language = 'javascript'>document.location.href='index.aspx';</script>");
+                    Response.Write("<script language = 'javascript'>document.location.href='reportep-auto.aspx';</script>");
                 }
                 else Response.Write("<script language = 'javascript'>alert('Datos incorrectos');</script>");
             }

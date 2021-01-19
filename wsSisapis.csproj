@@ -79,12 +79,12 @@
     <Content Include="default.aspx" />
     <Content Include="acceso.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="images\foto-diego.jpg" />
     <Content Include="reportep-auto.aspx" />
     <Content Include="registro.aspx" />
     <Content Include="nosotros.aspx" />
     <Content Include="index.aspx" />
     <Content Include="images\adornomain.svg" />
-    <Content Include="images\foto-diego.jpg" />
     <Content Include="images\foto-geo.jpg" />
     <Content Include="images\foto-mike.jpg" />
     <Content Include="images\logoredondo.png" />

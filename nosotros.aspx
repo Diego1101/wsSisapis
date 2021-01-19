@@ -68,7 +68,7 @@
                                                 </div>
                                             </div>
                                              <div class="col-4">
-                                                <img src="images/foto-diego.jpg" class="img-fluid circle-image" alt="Alternate Text" />
+                                                <img src="images/diegos.jpeg" class="img-fluid circle-image" alt="Alternate Text" />
                                                  <br />
                                                  <div class="rounded-text my-2 col-12 text-left" >
                                                     <h3>Diego Mendoza Reyes</h3>

@@ -1,4 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mpPrincipal.Master" AutoEventWireup="true" CodeBehind="reportep-auto.aspx.cs" Inherits="wsSisapis.Formulario_web14" %>
+
+<%@ Register Assembly="CrystalDecisions.Web, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" Namespace="CrystalDecisions.Web" TagPrefix="CR" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -17,10 +19,9 @@
 						<div class="inner">
 							<h2>Menu</h2>
 							<ul class="links">
-								<li><a href="#">Reporte 1</a></li>
-                                <li><a href="#">Reporte 2</a></li>
-                                <li><a href="#">Reporte 3</a></li>
-                                <li><a href="#">Reporte 4</a></li>
+								<li><a href="reportep-auto.aspx">Reporte 1</a></li>
+                                <li><a href="reporteMarca.aspx">Reporte 2</a></li>
+                                <li><a href="reporteModelo.aspx">Reporte 3</a></li>
 								<li><a href="index.aspx">Cerrar Sesión</a></li>
 							</ul>
 							<a href="#" class="close">Close</a>
@@ -30,15 +31,13 @@
 				<!-- Wrapper -->
 					<section id="bannercontenido" >
 						<div class="inner" >
-                            <h2>Reporte de predición de autos vendidos</h2> 
+                            <h2>Reporte de predición de marcas auto exportados</h2> 
 						</div>
 					</section>
-        <div class="container ">
-            <div class="row my-3" style="justify-content:center;">
+        <div class="container-fluid ">
+            <div class="row my-3"">
                 <div class="col-12"style="margin-top: 5%;" >
-                        
-
-                    <!-- Report viwer para el reporte -->
+                    <CR:CrystalReportViewer ID="CrystalReportViewer1" runat="server" AutoDataBind="true" />
         </div>
             </div>
         </div>
